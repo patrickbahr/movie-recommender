@@ -18,3 +18,4 @@ public class Genre {
 	@Id
 	private String genres;
 }
+

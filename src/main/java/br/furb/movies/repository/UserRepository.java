@@ -8,4 +8,5 @@ import br.furb.movies.domain.nodes.User;
 @RepositoryRestResource(collectionResourceRel = "users", path = "users")
 public interface UserRepository extends Neo4jRepository<User, Long> {
 
+	
 }

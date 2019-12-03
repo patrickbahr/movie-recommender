@@ -32,7 +32,7 @@ public class Movie {
 	
 	private String title;
 
-	@Property(name = "rating_mean")
+	@Property("rating_mean")
 	private Float ratingMean;
 	
 	@JsonIgnore
